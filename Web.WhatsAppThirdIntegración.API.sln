@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.WhatsAppThirdIntegración.API", "Web.WhatsAppThirdIntegración.API\Web.WhatsAppThirdIntegración.API.csproj", "{74015F1E-7372-426E-9AA8-408FD14F6F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{FBBD3F81-0C0F-4421-ADD6-0D8AFDBBC674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A6B8B880-CFA4-4971-87E0-A3508D318FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{767FC50D-E1B6-4647-90BC-C56FC169A405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74015F1E-7372-426E-9AA8-408FD14F6F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74015F1E-7372-426E-9AA8-408FD14F6F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74015F1E-7372-426E-9AA8-408FD14F6F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74015F1E-7372-426E-9AA8-408FD14F6F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767FC50D-E1B6-4647-90BC-C56FC169A405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767FC50D-E1B6-4647-90BC-C56FC169A405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767FC50D-E1B6-4647-90BC-C56FC169A405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767FC50D-E1B6-4647-90BC-C56FC169A405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74015F1E-7372-426E-9AA8-408FD14F6F4D} = {FBBD3F81-0C0F-4421-ADD6-0D8AFDBBC674}
+		{767FC50D-E1B6-4647-90BC-C56FC169A405} = {A6B8B880-CFA4-4971-87E0-A3508D318FAD}
+	EndGlobalSection
+EndGlobal
